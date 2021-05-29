@@ -53,6 +53,9 @@ fieldset {
   /* background-color: rgb(36, 137, 177); */
   color: #fff;
 }
+.scrolled{
+     background-color: rgb(36, 137, 177);
+}
 .navbar-nav li a {
   color: #fff !important;
 }
@@ -88,6 +91,7 @@ header {
   border-radius: 20px;
   margin-top: 2rem !important;
 }
+
 @media only screen and (max-width: 640px) {
     header {
         max-height: 150vh;
