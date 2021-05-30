@@ -225,10 +225,56 @@ header {
   top: -25px;
   padding: 1rem 1.1rem;
 }
-hr{
+.features2 hr {
   width: 4rem;
   margin-left: 60%;
   font-size: larger;
-  border: 1px dotted rgb(235, 227, 227) ;
-  border-style: none none dotted; 
+  border: 1px dotted rgb(235, 227, 227);
+  border-style: none none dotted;
+}
+@media only screen and (max-width: 670px) {
+  .features2 {
+    height: 90rem;
+  }
+  .features2-text1 {
+    font-size: 1rem;
+    margin-left: 8rem;
+    margin-top: -5rem;
+  }
+  .features2-card {
+    margin-top: 2rem;
+    width: 15rem;
+    margin: auto;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    margin-bottom: 40px;
+  }
+  .features2 hr {
+    margin-left: 80%;
+    width: 2rem;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 900px) {
+  .features2 {
+    height: 60rem;
+  }
+  .features2-card-text1{
+    font-size: 1.6rem;
+  }
+  .features2-text1 {
+    margin-top: -2.5rem;
+    margin-left: 22.2rem;
+  }
+  .features2-card {
+    position: relative;
+    padding: 1.8rem;
+    background-color: #fff;
+    margin: 20px;
+    width: 20rem;
+    margin-top: 6rem;
+  }
+  .features2 hr {
+    margin-left: 80%;
+    width: 2rem;
+  }
 }
