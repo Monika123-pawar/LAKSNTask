@@ -54,7 +54,7 @@ fieldset {
   color: #fff;
 }
 .scrolled{
-     background-color: rgb(36, 137, 177);
+     background-color: rgb(57, 159, 199);
 }
 .navbar-nav li a {
   color: #fff !important;
@@ -86,7 +86,7 @@ header {
   color: #fff;
 }
 .main-header-btn-box {
-  background-color: rgb(8, 125, 168);
+  background-color:  rgb(57, 159, 199);
   color: white;
   border-radius: 20px;
   margin-top: 2rem !important;
@@ -115,4 +115,35 @@ header {
         margin: 10rem 2rem 0rem 2rem;
         padding-bottom: 30rem;
       }
+}
+/* features */
+.features-text2{
+    margin: auto;
+    width: 75%;
+    color: #1d293e;
+    font-size:1.5rem;
+}
+.features-icon{
+    color:rgb(57, 159, 199) ;
+    padding: 20px;
+    size: 2rem;
+    background-color: #fff;
+    /* width: 50%; */
+    margin: auto;
+    border-radius: 50%;
+}
+.features-card-text1,.features-card-text2{
+  color: #fff;
+}
+.card1{
+  background-color:rgb(57, 159, 199)  ;
+}
+.card2{
+  background-color:rgb(17, 37, 100) ;
+}
+.card3{
+  background-color:rgb(24, 177, 75)  ;
+}
+.card4{
+  background-color:rgba(245, 58, 161, 0.871) ;
 }
