@@ -53,8 +53,8 @@ fieldset {
   /* background-color: rgb(36, 137, 177); */
   color: #fff;
 }
-.scrolled{
-     background-color: rgb(57, 159, 199);
+.scrolled {
+  background-color: rgb(57, 159, 199);
 }
 .navbar-nav li a {
   color: #fff !important;
@@ -86,16 +86,17 @@ header {
   color: #fff;
 }
 .main-header-btn-box {
-  background-color:  rgb(57, 159, 199);
+  background-color: rgb(57, 159, 199);
   color: white;
   border-radius: 20px;
   margin-top: 2rem !important;
+  width: 10rem;
 }
 
 @media only screen and (max-width: 640px) {
-    header {
-        max-height: 150vh;
-      }
+  header {
+    max-height: 150vh;
+  }
   .iphone-img {
     display: none;
   }
@@ -103,47 +104,97 @@ header {
     margin: 10rem 2rem 0rem 2rem;
     padding-bottom: 30rem;
   }
+  .main-header-text2 {
+    font-size: 20px;
+  }
+  .main-header-btn-box {
+    font-size: 20px;
+  }
 }
-@media  screen and (min-width:481px) and (max-width:1224px) {
-    /* header {
-        max-height: 200vh;
-      } */
-    .iphone-img {
-       display: none;
-      }
-      .main-header-box {
-        margin: 10rem 2rem 0rem 2rem;
-        padding-bottom: 30rem;
-      }
+@media screen and (min-width: 481px) and (max-width: 1224px) {
+  p {
+    font-size: 25px !important;
+  }
+  .iphone-img {
+    display: none;
+  }
+  .main-header-box {
+    margin: 10rem 2rem 0rem 2rem;
+    padding-bottom: 30rem;
+  }
+  .main-header-btn-box {
+    font-size: 25px;
+    width: 13rem;
+  }
 }
 /* features */
-.features-text2{
-    margin: auto;
-    width: 75%;
-    color: #1d293e;
-    font-size:1.5rem;
+.features-text2 {
+  margin: auto;
+  width: 75%;
+  color: #1d293e;
+  font-size: 1.5rem;
 }
-.features-icon{
-    color:rgb(57, 159, 199) ;
-    padding: 20px;
-    size: 2rem;
-    background-color: #fff;
-    /* width: 50%; */
-    margin: auto;
-    border-radius: 50%;
+.features-icon {
+  color: rgb(57, 159, 199);
+  padding: 20px;
+  size: 2rem;
+  background-color: #fff;
+  /* width: 50%; */
+  margin: auto;
+  border-radius: 50%;
 }
-.features-card-text1,.features-card-text2{
+.features-card-text1,
+.features-card-text2 {
   color: #fff;
 }
-.card1{
-  background-color:rgb(57, 159, 199)  ;
+.card1 {
+  background-color: rgb(57, 159, 199);
 }
-.card2{
-  background-color:rgb(17, 37, 100) ;
+.card2 {
+  background-color: rgb(17, 37, 100);
 }
-.card3{
-  background-color:rgb(24, 177, 75)  ;
+.card3 {
+  background-color: rgb(24, 177, 75);
 }
-.card4{
-  background-color:rgba(245, 58, 161, 0.871) ;
+.card4 {
+  background-color: rgba(245, 58, 161, 0.871);
+}
+@media only screen and (max-width: 670px) {
+  .features-card-text1 {
+    font-size: 30px;
+  }
+  .features-card-text2 {
+    font-size: 20px;
+  }
+}
+@media  screen and (min-width:670px) and (max-width:900px) {
+  .features-card-text1 {
+    font-size: 35px;
+  }
+  .features-card-text2 {
+    font-size: 15px;
+  }
+}
+/* mock-up section */
+.mock-up-img {
+  width: 30rem;
+}
+.mockup-text1 {
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 670px) {
+  .mock-up-img {
+    width: 15rem;
+    margin-top: 4rem !important;
+  }
+  .mockup-text2 {
+    font-size: 20px;
+  }
+}
+@media  screen and (min-width:670px) and (max-width:900px){
+  .mock-up-img {
+    width: 20rem;
+    margin-top: 4rem !important;
+  }
 }
