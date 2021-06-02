@@ -313,13 +313,64 @@ h2 {
 .text-slider-main {
 margin-top: 9rem;
 }
+.slick-dots li button{
+  margin-top: -13rem !important;
+color: rgb(19, 182, 247) !important;
+}
+.slick-dots li button:before {
+  margin-top: -13rem !important;
+    font-size: 40px !important;
+    color: rgb(19, 182, 247) !important;
+  }
 @media only screen and (max-width: 670px) {
   .text-slider-img{
     height: 35rem;
     width: 15rem;
   }
   .text-slider-text1{
+    font-size: 1.5rem;
+  }
+  .slick-dots li button{
+    margin-top: 0rem !important;
+  }
+  .slick-dots li button:before {
+    margin-top: 0rem !important;
+    }
+}
+@media screen and (min-width: 670px) and (max-width: 900px) {
+  .slick-dots li button{
+    margin-top: 0rem !important;
+  }
+  .slick-dots li button:before {
+    margin-top: 0rem !important;
+    }
+}
+/* appImage Screenshots */
+.appScreenshots-text1{
+  color: #1d293e;
+  font-size: 2.5rem;
+}
+.appScreenshots-text{
+  color: rgb(19, 182, 247);
+
+}
+.appScreenshots-divider{
+  margin: auto;
+  width: 4rem;
+  font-size: larger;
+  border: 2px dotted rgb(19, 182, 247);
+  border-style: none none dotted;
+}
+@media only screen and (max-width: 670px) {
+  .appScreenshots-image{
+    height: 25rem;
+  }
+  .appScreenshots-text1{
     font-size: 2rem;
   }
 }
-@media screen and (min-width: 670px) and (max-width: 900px) {}
+@media screen and (min-width: 670px) and (max-width: 900px) {
+  .appScreenshots-image{
+    height: 25rem;
+  }
+}
