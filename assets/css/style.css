@@ -234,7 +234,7 @@ header {
 }
 @media only screen and (max-width: 670px) {
   .features2 {
-    height: 90rem;
+    height: 80rem;
   }
   .features2-text1 {
     font-size: 1rem;
@@ -281,6 +281,7 @@ header {
 /* text slider */
 .text-slider-img{
   height: 45rem;
+  width: 29rem;
 }
 .item {
   background: #333;
@@ -293,3 +294,32 @@ h2 {
   padding-top: 80px;
   font-size: 30px;
 }
+.text-slider-icon{
+  padding: 1rem;
+  color: #fff;
+  background-color:rgb(19, 182, 247) ;
+  border-radius: 50%;
+}
+.text-slider-text1{
+  color: #1d293e;
+  font-size: 2.5rem;
+}
+.text-slider-box-divider{
+  width: 4rem;
+  font-size: larger;
+  border: 2px dotted rgb(19, 182, 247);
+  border-style: none none dotted;
+}
+.text-slider-main {
+margin-top: 9rem;
+}
+@media only screen and (max-width: 670px) {
+  .text-slider-img{
+    height: 35rem;
+    width: 15rem;
+  }
+  .text-slider-text1{
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 900px) {}
