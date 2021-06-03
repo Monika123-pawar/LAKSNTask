@@ -150,7 +150,9 @@ Version      : 1.0
 	/*START WOW ANIMATION JS*/
 	AOS.init();
 	/*END WOW ANIMATION JS*/
-
+	$( function() {
+		$( "#accordion" ).accordion();
+	  } );
 })(jQuery);
 
 

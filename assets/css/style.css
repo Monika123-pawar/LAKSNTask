@@ -258,7 +258,7 @@ header {
   .features2 {
     height: 60rem;
   }
-  .features2-card-text1{
+  .features2-card-text1 {
     font-size: 1.6rem;
   }
   .features2-text1 {
@@ -279,7 +279,7 @@ header {
   }
 }
 /* text slider */
-.text-slider-img{
+.text-slider-img {
   height: 45rem;
   width: 29rem;
 }
@@ -294,67 +294,66 @@ h2 {
   padding-top: 80px;
   font-size: 30px;
 }
-.text-slider-icon{
+.text-slider-icon {
   padding: 1rem;
   color: #fff;
-  background-color:rgb(19, 182, 247) ;
+  background-color: rgb(19, 182, 247);
   border-radius: 50%;
 }
-.text-slider-text1{
+.text-slider-text1 {
   color: #1d293e;
   font-size: 2.5rem;
 }
-.text-slider-box-divider{
+.text-slider-box-divider {
   width: 4rem;
   font-size: larger;
   border: 2px dotted rgb(19, 182, 247);
   border-style: none none dotted;
 }
 .text-slider-main {
-margin-top: 9rem;
+  margin-top: 9rem;
 }
-.slick-dots li button{
+.slick-dots li button {
   margin-top: -13rem !important;
-color: rgb(19, 182, 247) !important;
+  color: rgb(19, 182, 247) !important;
 }
 .slick-dots li button:before {
   margin-top: -13rem !important;
-    font-size: 40px !important;
-    color: rgb(19, 182, 247) !important;
-  }
+  font-size: 40px !important;
+  color: rgb(19, 182, 247) !important;
+}
 @media only screen and (max-width: 670px) {
-  .text-slider-img{
+  .text-slider-img {
     height: 35rem;
     width: 15rem;
   }
-  .text-slider-text1{
+  .text-slider-text1 {
     font-size: 1.5rem;
   }
-  .slick-dots li button{
+  .slick-dots li button {
     margin-top: 0rem !important;
   }
   .slick-dots li button:before {
     margin-top: 0rem !important;
-    }
+  }
 }
 @media screen and (min-width: 670px) and (max-width: 900px) {
-  .slick-dots li button{
+  .slick-dots li button {
     margin-top: 0rem !important;
   }
   .slick-dots li button:before {
     margin-top: 0rem !important;
-    }
+  }
 }
 /* appImage Screenshots */
-.appScreenshots-text1{
+.appScreenshots-text1 {
   color: #1d293e;
   font-size: 2.5rem;
 }
-.appScreenshots-text{
+.appScreenshots-text {
   color: rgb(19, 182, 247);
-
 }
-.appScreenshots-divider{
+.appScreenshots-divider {
   margin: auto;
   width: 4rem;
   font-size: larger;
@@ -362,15 +361,51 @@ color: rgb(19, 182, 247) !important;
   border-style: none none dotted;
 }
 @media only screen and (max-width: 670px) {
-  .appScreenshots-image{
+  .appScreenshots-image {
     height: 25rem;
   }
-  .appScreenshots-text1{
+  .appScreenshots-text1 {
     font-size: 2rem;
   }
 }
 @media screen and (min-width: 670px) and (max-width: 900px) {
-  .appScreenshots-image{
+  .appScreenshots-image {
     height: 25rem;
   }
+}
+/* video-company-overview */
+.video-company-overview-img{
+  width: 30rem;
+}
+.video-company-overview-text1{
+  font-size: 2rem;
+  color: #1d293e;
+}
+.video-company-overview-link{
+color: rgb(19, 182, 247);
+font-size: large;
+}
+.video-company-overview-link:hover{
+  color: rgb(19, 182, 247);
+}
+.video-company-overview-icon{
+  padding: 1rem;
+  color: #fff;
+  background-color: rgb(19, 182, 247);
+  border-radius: 50%;
+  box-shadow: 4px 5px 104px -1px rgba(0,0,0,0.77);
+}
+@media only screen and (max-width: 670px) {
+  .video-company-overview-img{
+    width: 15rem !important;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 900px) {
+ 
+}
+/* contact card */
+.contact-card1{
+  width: 12rem;
+  margin: 1rem;
+  padding: 1rem;
 }
