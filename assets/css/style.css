@@ -476,6 +476,26 @@ border-radius: 50%;
 .fa-star{
   color: rgb(237, 182, 42);
 }
+/* download-app */
+.download-app{
+background-color: #153263;
+}
+.app-store-logo{
+  background-color: rgb(19, 182, 247);
+  border-radius: 2rem;
+}
+.google-play-logo{
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
 /* contact card */
 .contact-card1{
   width: 12rem;
