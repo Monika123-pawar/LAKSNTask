@@ -406,6 +406,9 @@ font-size: large;
  
 }
 /* pricing */
+.pricing{
+  background-color: #1d293e;
+}
 .pricing-text1{
 color: #1d293e;
 font-size: 20px;
@@ -452,6 +455,26 @@ font-size: 2rem;
   margin-left:5rem;
 margin-right:-5rem;
  }
+}
+/*testimonial-img */
+.testimonial{
+  background: url(../img/bg/testimonial-bg.jpg) rgba(19, 19, 19, 0.474);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:multiply ;
+}
+.testimonial-img{
+width: 70px !important;
+height: 70px !important;
+border-radius: 50%;
+}
+.testimonial-text1{
+  color: #fff;
+  font-size: 3rem;
+}
+.fa-star{
+  color: rgb(237, 182, 42);
 }
 /* contact card */
 .contact-card1{
