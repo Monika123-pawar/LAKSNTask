@@ -60,7 +60,7 @@ Version      : 1.0
 		// 	slidesToScroll: 1
 		//  });
 
-		$('.center').slick({
+		$('.appScreenshots-slider').slick({
 			// centerMode: true,
 			centerPadding: '60px',
 			slidesToShow: 3,
