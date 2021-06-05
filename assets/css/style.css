@@ -446,7 +446,6 @@ font-size: 2rem;
   border-radius: 2rem;
   font-weight: bold;
 }
-}
 @media only screen and (max-width: 670px) {
 
 }
@@ -492,9 +491,17 @@ background-color: #153263;
 #accordion{
   width: 70% !important;
   margin: auto;
+  border: 1px solid rgb(202, 193, 193) ;
 }
 .accordion-text1,.accordion-text2{
   font-size: 1rem !important;
+}
+.accordion_content{
+  background-color: rgb(217, 244, 245);
+  border: none !important;
+}
+.accordion-text2{
+  font-weight: lighter;
 }
 .ui-accordion .ui-accordion-content {
   padding: 2rem !important;
@@ -504,10 +511,24 @@ background-color: #153263;
   display: block;
  height: auto !important;
 }
-
-.ui-state-active .ui-icon{
-  background-image: url(../img/plus.png ) !important;
-  background-color: rgb(19, 182, 247);
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+  border: none !important;
+}
+.ui-icon{
+  padding:10px !important;
+  color: #1d293e;
+} 
+@media only screen and (max-width: 670px) {
+  #accordion{
+    width: 90% !important;
+   margin-top: 2rem !important;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 900px) {
+  #accordion{
+    width: 90% !important;
+   margin-top: 2rem !important;
+  }
 }
 /* contact card */
 .contact-card1{
