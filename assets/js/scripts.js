@@ -117,12 +117,12 @@ Version      : 1.0
 			pagination: true,
 			navigation: false,
 			slideSpeed: 1000,
-			autoPlay: false
+			autoPlay: false,
 		});
 		/* END TESTIMONIAL JS */
 
 		/*START PARTNER LOGO*/
-		$('.partner').owlCarousel({
+		$('#partner').owlCarousel({
 			autoPlay: 3000, //Set AutoPlay to 3 seconds
 			items: 5,
 			itemsDesktop: [1199, 3],
