@@ -149,15 +149,22 @@ header {
 }
 .card1 {
   background-color: rgb(57, 159, 199);
-}
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;}
 .card2 {
-  background-color: rgb(17, 37, 100);
+  background-color: rgb(36, 61, 126);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 .card3 {
-  background-color: rgb(24, 177, 75);
+  background-color: seagreen;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 .card4 {
-  background-color: rgba(245, 58, 161, 0.871);
+  background-color:#f36196 ;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 @media only screen and (max-width: 670px) {
   .features-card-text1 {
@@ -361,6 +368,10 @@ h2 {
   border-style: none none dotted;
 }
 @media only screen and (max-width: 670px) {
+  .appScreenshots-slider{
+    width: 85%;
+    margin: auto;
+  }
   .appScreenshots-image {
     height: 25rem;
   }
@@ -369,6 +380,10 @@ h2 {
   }
 }
 @media screen and (min-width: 670px) and (max-width: 900px) {
+  .appScreenshots-slider{
+    width: 85%;
+    margin: auto;
+  }
   .appScreenshots-image {
     height: 25rem;
   }
@@ -535,6 +550,10 @@ background-color: #153263;
   width: 12rem;
   margin: 1rem;
   padding: 1rem;
+}
+.contact-card-text2{
+font-size: 15px;
+font-weight: lighter;
 }
 .social-icon{
   border-radius: 50%;
