@@ -54,13 +54,17 @@ fieldset {
   color: #fff;
 }
 .scrolled {
-  background-color: rgb(57, 159, 199);
+  background-color: rgb(19, 182, 247);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
 }
 .navbar-nav li a {
   color: #fff !important;
+}
+.brand-logo{
+  width: 10rem !important;
+  height: 3rem !important;
 }
 header {
   background: url(../img/bg/home-bg.jpg) rgba(19, 19, 19, 0.474);
