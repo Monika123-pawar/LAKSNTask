@@ -488,17 +488,56 @@ background-color: #153263;
   background-color: #fff;
   border-radius: 2rem;
 }
+/* accordian */
+#accordion{
+  width: 70% !important;
+  margin: auto;
+}
+.accordion-text1,.accordion-text2{
+  font-size: 1rem !important;
+}
+.ui-accordion .ui-accordion-content {
+  padding: 2rem !important;
+  font-size: 1rem !important;
+}
+.ui-accordion-content .style {
+  display: block;
+ height: auto !important;
+}
 
-
-
-
-
-
-
-
+.ui-state-active .ui-icon{
+  background-image: url(../img/plus.png ) !important;
+  background-color: rgb(19, 182, 247);
+}
 /* contact card */
 .contact-card1{
   width: 12rem;
   margin: 1rem;
   padding: 1rem;
+}
+/* partner */
+.partner{
+  background-color: #153263;
+
+}
+/* map */
+.map{
+  width:100%;
+  height: 20rem;
+}
+/* footer */
+.footer{
+  background-color: #153263;
+  color:#fff !important;
+}
+.footer-text1{
+  color:#fff !important;
+  margin: auto;
+}
+.fa-angle-up:before{
+  background-color: rgb(19, 182, 247);
+  padding: 0.6rem;
+  color:#fff !important;
+  border-radius: 5px;
+/* margin-bottom: 20px !important; */
 }

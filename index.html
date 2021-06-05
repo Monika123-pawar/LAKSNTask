@@ -10,13 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/slick-theme.css">
     <link rel="stylesheet" href="./assets/css/slick.css">
     <link rel="stylesheet" href="./assets/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="./assets/css/accordion.css" /> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Task</title>
 </head>
@@ -445,7 +446,7 @@
 
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-7 bg-light  mt-3">
-                        <div class="testimonial-slider p-5">
+                        <div id="testimonial-slider" class="testimonial-slider p-5">
                             <img class="testimonial-img" src="./assets/img/testimonial/1.jpg" alt="testimonial">
                             <h6 class="mt-2">Mithali Nihad</h6>
                             <h6>Founder</h6>
@@ -461,6 +462,22 @@
                                 <i class="fa fa-star"></i>
                             </span>
                         </div>
+                        <!-- <div id="testimonial-slider" class="testimonial-slider p-5">
+                            <img class="testimonial-img" src="./assets/img/testimonial/2.jpg" alt="testimonial">
+                            <h6 class="mt-2">Mithali Nihad</h6>
+                            <h6>Founder</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis, possimus nobis
+                                dicta
+                                similique, rem eaque doloremque harum laudantium minus suscipit eos dolorem excepturi
+                                aperiam ut cum, ducimus voluptate minima</p>
+                            <span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -488,52 +505,44 @@
                     <hr class="appScreenshots-divider">
 
                     <div class="row p-5">
-                        <div id="accordion">
-                            <h6> Clean code</h6>
+                        <div id="accordion" class="text-start">
+                            <h6 class="accordion-text1"> Clean code</h6>
                             <div>
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                                <p class="accordion-text2">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, assumenda cupiditate. Facere odit laudantium ut sequi, vel voluptatibus
+                    
                                 </p>
                             </div>
-                            <h6>Great design out of box</h6>
+                            <h6 class="accordion-text1">Great design out of box</h6>
                             <div>
-                                <p>
-                                    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                                    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                                    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                                    suscipit faucibus urna.
+                                <p class="accordion-text2">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, assumenda cupiditate. Facere odit laudantium ut sequi, vel voluptatibus
+                    
                                 </p>
                             </div>
-                            <h6> Fit on all devices</h6>
+                            <h6 class="accordion-text1"> Fit on all devices</h6>
                             <div>
-                                <p>
-                                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-                                    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-                                    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-                                    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                                <p class="accordion-text2">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, assumenda cupiditate. Facere odit laudantium ut sequi, vel voluptatibus
+                    
                                 </p>
 
                             </div>
-                            <h6> Made with passion</h6>
+                            <h6 class="accordion-text1"><i class="fa fa-plus"></i> Made with passion</h6>
                             <div>
-                                <p>
-                                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-                                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-                                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-                                    mauris vel est.
+                                <p class="accordion-text2">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, assumenda cupiditate. Facere odit laudantium ut sequi, vel voluptatibus
+                    
                                 </p>
 
                             </div>
                         </div>
-
+                     
                     </div>
             </div>
         </section>
 
-        <!--     <section>
+       <section>
             <div class="container p-5">
                 <h5 class="text-center appScreenshots-text1">Contact <span class="appScreenshots-text">
                         Angle</span>
@@ -609,8 +618,9 @@
         </section>
         <section class="partner">
             <div class="container">
-                <div class="row">
-                    <div class="col">
+                <!-- d-flex justify-content-center -->
+                <div class="row text-center">
+                    <div class="col pb-3">
                         <img src="./assets/img/partner/brand-1.png" alt="partner">
                         <img src="./assets/img/partner/brand-2.png" alt="partner">
                         <img src="./assets/img/partner/brand-3.png" alt="partner">
@@ -629,29 +639,32 @@
         </section>
         <section class="footer">
             <div class="container">
-                <h6 class="text-center">Copyright @ 2020 | Powered By LAKSN Technologies</h6>
+                <h6 class="text-center footer-text1">Copyright @ 2020 | Powered By LAKSN Technologies</h6>
             </div>
-        </section> -->
+        </section> 
     </main>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
     <script src="./assets/js/jquery-1.12.4.min.js"></script>
     <script src="./assets/js/jquery.stellar.min.js"></script>
     <script src="./assets/js/aos.js"></script>
-    <script src="./assets/js/modernizr-2.8.3.min.js"></script>
+    <script src="./assets/js/modernizr-2.8.3.min.js"></script>    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> -->
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/jquery.magnific-popup.min.js"></script>
     <script src="./assets/js/scrolltopcontrol.js"></script>
-    <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/scripts.js"></script>
+   
     <script src="./assets/js/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <!-- <script type="text/javascript" src=./assets/js/accordion.js"></script>
+    <script type="text/javascript" src=./assets/js/accordion-min.js"></script>  -->
+    <script src="./assets/js/scripts.js"></script>
 
 </body>
 
