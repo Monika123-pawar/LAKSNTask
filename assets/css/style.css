@@ -75,7 +75,7 @@ header {
   background-blend-mode: multiply;
 }
 .iphone-img {
-  position: absolute;
+  position: relative;
   left: 60%;
   top: -14rem;
   z-index: 1;
